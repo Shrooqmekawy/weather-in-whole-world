@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css.css" />
+     <title>weather</title>
+     <link rel="shortcut icon" href="./logo.jpeg" type="image/x-icon">
+   
+
+  </head>
+  <body class="bg-container  ">
+    <nav class=" w-100  p-3 bg-nav ">
+      <header class="container  d-flex align-items-center justify-content-between">
+        <div class=" icon-cloud text-white d-flex align-items-center">
+         <i class="fa-solid fa-cloud text"></i> <span class="fs-2 mx-3">Weather</span>
+        </div>
+        <div class="item">
+          <div id="navLink" class=" d-flex align-items-center ">
+            <ul class="nav-items list-unstyled my-0  d-flex  ">
+              <li ><a class="text-decoration-none text-white  fs-5 rounded-pill px-3 py-1  mx-2"  href="#">home</a></li>
+              <li ><a class="text-decoration-none text-white  fs-5 rounded-pill px-3 py-1   mx-2"  href="#">news</a></li>
+              <li ><a class="text-decoration-none text-white  fs-5 rounded-pill px-3 py-1  mx-2"  href="#">live</a></li>
+              <li ><a class="text-decoration-none text-white  fs-5 rounded-pill px-3 py-1  mx-2"  href="#">photo</a></li>
+              <li ><a id="contact"  class=" text-decoration-none text-white  fs-5 rounded-pill px-3 py-1  mx-2" target="_blank" href=" ">contact</a></li>
+            </ul>
+          </div>
+          <button id="btn" class=" ms-5 border border-white-subtle rounded-3 p-3 border-3 bg-transparent fs-6 text-white d-none"><i class="fa-solid fa-bars"></i></button>
+          </div>
+        
+      </header>
+      <div id="extralink" class="container  w-75 d-none " >
+        <div class="bg-white rounded-3 my-3  ">
+          <ul class=" list-unstyled  text-center m-5">
+            <li class="p-3" ><a class="text-decoration-none text-primary fs-4 active"href="#">home</a></li>
+            <li class="p-3"><a class="text-decoration-none text-primary fs-4 " href="#">news</a></li>
+            <li class="p-3"><a class="text-decoration-none text-primary fs-4 " href="#">live</a></li>
+            <li class="p-3"><a class="text-decoration-none text-primary fs-4 " href="#">photo</a></li>
+            <li class="p-3 border-bottom-0"><a id="contact1" class="contact1 text-decoration-none text-primary fs-4 " target="_blank" href="">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- navbar----------------------------------------------------------------- -->
+ <main >
+  <header class="container">
+    <div class="d-flex  position-relative  ">
+      <input id="search" class="rounded-3  p-3  form-control my-5 " type="search" name="search" placeholder="enter ur location" >
+      <button id="searchBtn" type="button" class="btn  bg-primary text-white my-5 rounded-pill px-4 py-2 fs-5 mx-2 position-absolute end-0">Find</button>
+    </div>
+     <section id="dayOne" class="row g-4">
+      
+      <span class="loader my-5"></span>
+
+      
+    </section> 
+  </header>
+ </main>
+
+<!-- sections------------------------------------------------- -->
+  
+
+
+<!-- <footer class="bg-footer text-white m-0  p-4 text-center position-sticky w-100"><p class="my-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></footer> -->
+
+<footer class="bg-footer text-white m-0  p-4 text-center  w-100">
+  <header class="container ">
+    <div class="d-flex ">
+      <input class="rounded-pill  p-2 w-75 form-control my-5 " type="email" name="email" placeholder="enter ur email">
+      <button class="btn  bg-white text-primary my-5 rounded-pill px-3 py-1 fs-6 mx-2">Subscribe</button>
+      
+    </div>
+      
+  <div class="icon  d-flex justify-content-center  ">
+        <div class="rounded-circle bg-dark  me-2"><i class="fa-brands fa-facebook fs-4 text-white p-3"></i></div>
+        <div class="rounded-circle bg-dark  me-2"><i class="fa-brands fa-instagram fs-4 text-white p-3"></i></div>
+        <div class="rounded-circle bg-dark  me-2"><i class="fa-brands fa-twitter fs-4 text-warning p-3"></i></div>
+        <div class="rounded-circle bg-dark  me-2"><i class="fa-brands fa-linkedin fs-4 text-white p-3"></i></div>
+     </div>
+</header>  
+  
+  
+  
+<p class="p-2"> Copyright 2014 Company name. Designed by Themezy. All rights reserved</p></footer>
+    
+    <script src="./js/index.js"></script>
+    
+  </body>
+</html>
